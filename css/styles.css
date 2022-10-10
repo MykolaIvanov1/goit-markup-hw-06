@@ -761,6 +761,16 @@ img {
   margin-right: auto;
 }
 
+.agreement {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  cursor: pointer;
+}
+
 .checkbox {
   appearance: none;
   position: absolute;
@@ -791,16 +801,6 @@ img {
 
 .agreement:focus input ~ .icon-checkbox {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.12);
-}
-
-.agreement {
-  display: inline-flex;
-  align-items: center;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-  cursor: pointer;
 }
 
 .link-agreement {
