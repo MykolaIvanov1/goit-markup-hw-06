@@ -310,7 +310,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.conteiner-img-text {
+.container-img-text {
   position: relative;
 }
 
@@ -517,7 +517,7 @@ img {
 }
 
 .footer-network {
-  margin-left: 70px;
+  margin-left: 87px;
   display: block;
 }
 
@@ -555,7 +555,8 @@ img {
 .email-input {
   display: flex;
   align-items: flex-end;
-  margin-left: 93px;
+  justify-content: flex-end;
+  margin-left: 100px;
 }
 
 .label {
@@ -646,6 +647,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 40px;
   width: 528px;
   height: 581px;
   background-color: var(--color-text-hero);
@@ -655,12 +657,13 @@ img {
 }
 
 .button-modal {
+  position: absolute;
+  right: 0;
+  top: 0;
   display: block;
   width: 30px;
   height: 30px;
   padding: 5px;
-  margin: 0;
-  margin-left: auto;
   margin-right: 8px;
   margin-top: 8px;
   background: #ffffff;
@@ -679,10 +682,6 @@ img {
 .icon-close-black {
   width: 18px;
   height: 18px;
-}
-
-.form-modal {
-  margin: 2px 40px 40px;
 }
 
 .text-form {
@@ -756,7 +755,7 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.conteiner-agreement {
+.container-agreement {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -786,6 +785,14 @@ img {
   border: 0;
 }
 
+.agreement:hover input ~ .icon-checkbox {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.12);
+}
+
+.agreement:focus input ~ .icon-checkbox {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.12);
+}
+
 .agreement {
   display: inline-flex;
   align-items: center;
@@ -793,6 +800,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  cursor: pointer;
 }
 
 .link-agreement {
@@ -911,12 +919,12 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.conteiner-overlay {
+.container-overlay {
   position: relative;
   overflow: hidden;
 }
 
-.conteiner-overlay-text {
+.container-overlay-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -939,12 +947,12 @@ img {
   color: var(--color-text-hero);
 }
 
-.link-portfolio:hover .conteiner-overlay-text {
+.link-portfolio:hover .container-overlay-text {
   opacity: 1;
   transform: translateY(0);
 }
 
-.conteiner-overlay-text:focus {
+.container-overlay-text:focus {
   opacity: 1;
   transform: translateY(0);
 }
