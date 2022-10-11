@@ -799,7 +799,7 @@ img {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.12);
 }
 
-.agreement:focus input ~ .icon-checkbox {
+.checkbox:focus + .icon-checkbox {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.12);
 }
 
